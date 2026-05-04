@@ -114,6 +114,146 @@ body {
     }
 }
 /* -----------feature section----------------*/
+.futures {
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.future-text {
+    max-width: 600px;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555;
+    }
+}
+.future-layout {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.future-item {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+
+    svg {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
 /* -----------card section----------------*/
+.cards {
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card-text {
+    max-width: 600px;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555;
+    }
+}
+.content-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+.card-content {
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+}
+
 /* -----------cta section----------------*/
+.cta {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #bbb;
+        margin-bottom: 30px;
+    }
+    .btn-light {
+        background-color: white;
+        color: #007BFF;
+    }
+}
 /* -----------footer section----------------*/
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+    p {
+        font-size: 16px;
+    }
+}
